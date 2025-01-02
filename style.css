@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.H{
+    background-color: rgb(243, 212, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.H img{
+    height: 25px;
+    width: 90px;
+}
+.H-links a {
+    color: black;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 20px ;
+}
+.landing-page{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    color: black;
+}
+.text{
+    max-width: 50%;
+}
+.text h1{
+    font-size: 3.5rem;
+}
+.text h1 span{
+    color: darkorange;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    color: white;
+    background: rgb(209, 105, 15);
+    border-radius: 20px;
+    border: none;
+
+}
+.btn1{
+    padding: 0.5rem 1rem;
+    color: white;
+    background: rgb(209, 105, 15);
+    border-radius: 20px;
+    border: none; 
+}
+.image{
+    border-radius: 20px;
+    width: 470px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.featur{
+    background:white;
+    text-align: center;
+    padding: 2rem;
+}
+.featur-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.f{
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+}
+.f img {
+    height: 50px;
+    margin-bottom: 20px;
+}
+footer{
+    background: rgb(243, 212, 197);
+    padding: 1.5rem ;
+    color: black;
+    
+    
+}
+footer h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
