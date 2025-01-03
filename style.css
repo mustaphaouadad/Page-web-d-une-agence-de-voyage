@@ -1,4 +1,8 @@
-
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
 body{
      margin: 0;
 }
@@ -6,7 +10,7 @@ body{
     background :#fdf6f0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 10px;
 }
 .H img{
@@ -80,27 +84,27 @@ h2{
 }
 .featur-list{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1rem;
+    
 }
 .f1{
-    text-align: center;
+    
     flex: 1;
-    min-width: 200px;
-    max-width: 300px;
+    /* min-width: 200px; */
+    /* max-width: 300px; */
 }
 .f1 h3{
     padding-left: 80px;
-    font-size:large;
 }
 .f1 p{
+   
     font-size:70%;
-    padding-left: 100px;
+    padding-left: 70px;
+    line-height: 1.5;
+    text-indent: 20px;
     
 }
 .f1 img {
-    padding-left: 0px;
+    padding-left: 80px;
     height: 50px;
     margin-bottom: 20px;
 }
@@ -112,11 +116,12 @@ h2{
 }
 .f2 h3{
     padding-right: 50px;
-    font-size:large;
 }
 .f2 p{
     padding-right:70px ;
     font-size: 70%;
+    line-height: 1.5;
+    text-indent: 20px;
 } 
 .f2 img {
     padding-right: 170px;
@@ -131,12 +136,14 @@ h2{
 }
 .f3 h3{
     padding-right: 190px;
-    font-size:large;
+    font-size: large;
    
 }
 .f3 p{
     padding-right:70px ;
     font-size: 70%;
+    line-height: 1.5;
+    text-indent: 20px;
 
 }
 .f3 img {
@@ -152,11 +159,12 @@ h2{
 }
 .f4 h3{
     padding-right: 80px;
-    font-size:large;
 }
 .f4 p{
     padding-right:70px ;
     font-size: 70%;
+    line-height: 1.5;
+    text-indent: 20px;
 
 }
 .f4 img {
